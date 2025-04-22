@@ -42,7 +42,7 @@ public class ServicioImpl implements Servicio {
 
 			/* A completar por el alumnado... */
 
-			/* ================================= AYUDA RÁPIDA ===========================*/
+			/* ================================= AYUDA Rï¿½PIDA ===========================*/
 			/*
 			 * Algunas de las columnas utilizan tipo numeric en SQL, lo que se traduce en
 			 * BigDecimal para Java.
