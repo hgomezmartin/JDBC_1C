@@ -6348,3 +6348,413 @@ INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:352)]2025-04-24 08:12:18.13
 INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:353)]2025-04-24 08:12:18.130 [main] Tests - Se obtiene...**
 INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:354)]2025-04-24 08:12:18.130 [main] Tests - Y deberia ser*12222-ABC11-03-201313-03-201310212345678A2 dias de alquiler, vehiculo modelo 2   32#12222-ABC11-03-201313-03-201310212345678ADeposito lleno de 50 litros de Gasoil   70*
 INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:36)]2025-04-24 08:12:18.131 [main] AlquilerCoches - Fin de los tests
+INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:27)]2025-04-24 08:17:00.187 [main] AlquilerCoches - Comienzo de los tests
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.233 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.233 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Jue Abr 24 08:17:00 2025
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.233 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.233 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.233 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.250 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.250 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.251 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.251 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.258 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.258 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.258 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.262 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.262 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.262 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.265 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.266 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.266 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.283 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.283 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.283 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.295 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.296 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.296 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.305 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.306 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.306 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.316 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.316 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.316 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.328 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.328 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.329 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.339 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.341 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.344 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.349 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.349 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.349 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.358 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.358 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.359 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.364 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.365 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.365 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.368 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.368 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.369 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.377 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.377 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.377 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.382 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.382 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.382 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.386 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.386 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.386 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.394 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.394 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.394 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.397 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.397 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.397 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.404 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.404 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.404 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.411 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.411 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.412 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.414 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.414 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.414 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.425 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.426 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.426 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.438 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.438 [main] ExecuteScript - PL/SQL procedure successfully completed.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.438 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:17:00.438 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-24 08:17:00.501 [main] AlquilerCochesException - El número de días será mayor que cero
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:00.502 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:00.502 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:00.502 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:36)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:00.502 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:42)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:00.502 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:46)]2025-04-24 08:17:00.502 [main] Tests - Nro de dias insuficiente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:00.977 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:00.978 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-24 08:17:01.078 [main] AlquilerCochesException - Vehículo inexistente
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:01.079 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:01.079 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:01.079 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:74)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:01.079 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:67)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:01.080 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+DEBUG: [lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:94)]2025-04-24 08:17:01.080 [main] ServicioImpl - Vehículo inexistente
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:71)]2025-04-24 08:17:01.080 [main] Tests - Alquilar vehiculo inexistente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.080 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.080 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-24 08:17:01.098 [main] AlquilerCochesException - Cliente inexistente
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:01.098 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:01.098 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:01.098 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:85)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:01.098 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:81)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:17:01.098 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+DEBUG: [lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:94)]2025-04-24 08:17:01.098 [main] ServicioImpl - Cliente inexistente
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:85)]2025-04-24 08:17:01.098 [main] Tests - Alquilar  a cliente inexistente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.099 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.099 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.155 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.156 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:125)]2025-04-24 08:17:01.163 [main] Tests - Caso alquiler correcto pero NO especifico la fecha final --------------
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:132)]2025-04-24 08:17:01.163 [main] Tests - NO Coinciden la factura y las linea de factura  MAL
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:133)]2025-04-24 08:17:01.163 [main] Tests - Se obtiene...**
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:134)]2025-04-24 08:17:01.163 [main] Tests - Y deberia ser*1234-ABC11-03-201313412345678A4 dias de alquiler, vehiculo modelo 2   64#1234-ABC11-03-201313412345678ADeposito lleno de 50 litros de Gasoil   70*
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.164 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.164 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.184 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.184 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:186)]2025-04-24 08:17:01.185 [main] Tests - MAL Caso vehiculo ocupado solape de fechaIni no levanta excepcion
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.186 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.186 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.223 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.223 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:235)]2025-04-24 08:17:01.224 [main] Tests - MAL Caso vehiculo ocupado solape de fechaFin no levanta excepcion
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.225 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.225 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.274 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.276 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:285)]2025-04-24 08:17:01.278 [main] Tests - MAL Caso vehiculo ocupado intervalo del alquiler esta dentro de una reserva no levanta excepcion
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.279 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.280 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:17:01.320 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:17:01.320 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:345)]2025-04-24 08:17:01.324 [main] Tests - Caso alquiler correcto pero SI especifico la fecha final --------------
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:352)]2025-04-24 08:17:01.324 [main] Tests - NO Coinciden la factura y las linea de factura MAL
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:353)]2025-04-24 08:17:01.324 [main] Tests - Se obtiene...**
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:354)]2025-04-24 08:17:01.324 [main] Tests - Y deberia ser*12222-ABC11-03-201313-03-201310212345678A2 dias de alquiler, vehiculo modelo 2   32#12222-ABC11-03-201313-03-201310212345678ADeposito lleno de 50 litros de Gasoil   70*
+INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:36)]2025-04-24 08:17:01.325 [main] AlquilerCoches - Fin de los tests
+INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:27)]2025-04-24 08:18:04.908 [main] AlquilerCoches - Comienzo de los tests
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.957 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.957 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Jue Abr 24 08:18:04 2025
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.957 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.957 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.958 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.975 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.975 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.975 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.976 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.981 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.981 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.981 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.987 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.988 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.988 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.991 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.992 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:04.992 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.004 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.005 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.005 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.020 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.021 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.021 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.032 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.032 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.032 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.044 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.044 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.044 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.057 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.058 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.058 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.067 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.069 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.070 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.077 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.077 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.077 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.083 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.083 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.083 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.089 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.089 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.090 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.093 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.093 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.093 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.101 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.102 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.102 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.107 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.108 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.108 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.110 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.111 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.111 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.118 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.118 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.119 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.121 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.122 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.122 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.130 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.130 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.130 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.136 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.136 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.136 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.138 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.138 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.138 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.147 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.148 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.148 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.157 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.157 [main] ExecuteScript - PL/SQL procedure successfully completed.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.157 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:05.158 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-24 08:18:05.220 [main] AlquilerCochesException - El número de días será mayor que cero
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:05.221 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:05.221 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:05.221 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:36)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:05.221 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:42)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:05.221 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:46)]2025-04-24 08:18:05.221 [main] Tests - Nro de dias insuficiente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.696 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.698 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-24 08:18:05.800 [main] AlquilerCochesException - Vehículo inexistente
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:05.800 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:05.801 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:05.801 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:74)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:05.801 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:67)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:05.801 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+DEBUG: [lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:91)]2025-04-24 08:18:05.801 [main] ServicioImpl - Vehículo inexistente
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:71)]2025-04-24 08:18:05.801 [main] Tests - Alquilar vehiculo inexistente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.802 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.802 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:82)]2025-04-24 08:18:05.809 [main] Tests - Alquilar a cliente inexistente MAL no da excepcion
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.810 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.810 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.873 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.873 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:125)]2025-04-24 08:18:05.879 [main] Tests - Caso alquiler correcto pero NO especifico la fecha final --------------
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:132)]2025-04-24 08:18:05.879 [main] Tests - NO Coinciden la factura y las linea de factura  MAL
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:133)]2025-04-24 08:18:05.879 [main] Tests - Se obtiene...**
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:134)]2025-04-24 08:18:05.879 [main] Tests - Y deberia ser*1234-ABC11-03-201313412345678A4 dias de alquiler, vehiculo modelo 2   64#1234-ABC11-03-201313412345678ADeposito lleno de 50 litros de Gasoil   70*
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.880 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.880 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.897 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.897 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:186)]2025-04-24 08:18:05.899 [main] Tests - MAL Caso vehiculo ocupado solape de fechaIni no levanta excepcion
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.900 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.901 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.939 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.939 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:235)]2025-04-24 08:18:05.941 [main] Tests - MAL Caso vehiculo ocupado solape de fechaFin no levanta excepcion
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.942 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.942 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.987 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.987 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:285)]2025-04-24 08:18:05.989 [main] Tests - MAL Caso vehiculo ocupado intervalo del alquiler esta dentro de una reserva no levanta excepcion
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:05.990 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:05.990 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:06.030 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:06.030 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:345)]2025-04-24 08:18:06.035 [main] Tests - Caso alquiler correcto pero SI especifico la fecha final --------------
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:352)]2025-04-24 08:18:06.038 [main] Tests - NO Coinciden la factura y las linea de factura MAL
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:353)]2025-04-24 08:18:06.039 [main] Tests - Se obtiene...**
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:354)]2025-04-24 08:18:06.039 [main] Tests - Y deberia ser*12222-ABC11-03-201313-03-201310212345678A2 dias de alquiler, vehiculo modelo 2   32#12222-ABC11-03-201313-03-201310212345678ADeposito lleno de 50 litros de Gasoil   70*
+INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:36)]2025-04-24 08:18:06.047 [main] AlquilerCoches - Fin de los tests
+INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:27)]2025-04-24 08:18:27.664 [main] AlquilerCoches - Comienzo de los tests
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.701 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.702 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Jue Abr 24 08:18:27 2025
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.702 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.702 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.702 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.719 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.722 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.722 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.722 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.723 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.725 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.725 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.728 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.728 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.728 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.731 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.732 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.732 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.741 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.742 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.742 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.756 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.756 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.756 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.766 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.767 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.767 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.778 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.779 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.779 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.790 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.790 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.790 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.801 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.801 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.802 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.812 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.812 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.812 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.819 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.820 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.820 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.826 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.826 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.826 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.829 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.829 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.829 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.837 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.837 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.837 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.843 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.844 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.844 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.847 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.847 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.847 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.854 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.857 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.857 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.857 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.862 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.862 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.863 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.868 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.868 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.868 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.870 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.870 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.870 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.881 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.881 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.881 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.892 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.892 [main] ExecuteScript - PL/SQL procedure successfully completed.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.892 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-24 08:18:27.892 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-24 08:18:27.945 [main] AlquilerCochesException - El número de días será mayor que cero
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:27.945 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:27.946 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:27.946 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:36)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:27.946 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:42)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:27.946 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:46)]2025-04-24 08:18:27.946 [main] Tests - Nro de dias insuficiente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.384 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.385 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-24 08:18:28.463 [main] AlquilerCochesException - Vehículo inexistente
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:28.463 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:28.463 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:28.463 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:74)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:28.464 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:67)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:28.464 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+DEBUG: [lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:94)]2025-04-24 08:18:28.464 [main] ServicioImpl - Vehículo inexistente
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:71)]2025-04-24 08:18:28.464 [main] Tests - Alquilar vehiculo inexistente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.464 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.464 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-24 08:18:28.473 [main] AlquilerCochesException - Cliente inexistente
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:28.473 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:28.473 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:28.473 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:85)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:28.473 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:81)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-24 08:18:28.473 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+DEBUG: [lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:94)]2025-04-24 08:18:28.473 [main] ServicioImpl - Cliente inexistente
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:85)]2025-04-24 08:18:28.473 [main] Tests - Alquilar  a cliente inexistente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.474 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.474 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.523 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.524 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:125)]2025-04-24 08:18:28.529 [main] Tests - Caso alquiler correcto pero NO especifico la fecha final --------------
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:132)]2025-04-24 08:18:28.529 [main] Tests - NO Coinciden la factura y las linea de factura  MAL
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:133)]2025-04-24 08:18:28.529 [main] Tests - Se obtiene...**
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:134)]2025-04-24 08:18:28.529 [main] Tests - Y deberia ser*1234-ABC11-03-201313412345678A4 dias de alquiler, vehiculo modelo 2   64#1234-ABC11-03-201313412345678ADeposito lleno de 50 litros de Gasoil   70*
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.529 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.530 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.545 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.546 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:186)]2025-04-24 08:18:28.547 [main] Tests - MAL Caso vehiculo ocupado solape de fechaIni no levanta excepcion
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.549 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.550 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.587 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.587 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:235)]2025-04-24 08:18:28.589 [main] Tests - MAL Caso vehiculo ocupado solape de fechaFin no levanta excepcion
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.590 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.591 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.627 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.629 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:285)]2025-04-24 08:18:28.631 [main] Tests - MAL Caso vehiculo ocupado intervalo del alquiler esta dentro de una reserva no levanta excepcion
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.632 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.632 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-24 08:18:28.658 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-24 08:18:28.658 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:345)]2025-04-24 08:18:28.664 [main] Tests - Caso alquiler correcto pero SI especifico la fecha final --------------
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:352)]2025-04-24 08:18:28.664 [main] Tests - NO Coinciden la factura y las linea de factura MAL
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:353)]2025-04-24 08:18:28.664 [main] Tests - Se obtiene...**
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:354)]2025-04-24 08:18:28.664 [main] Tests - Y deberia ser*12222-ABC11-03-201313-03-201310212345678A2 dias de alquiler, vehiculo modelo 2   32#12222-ABC11-03-201313-03-201310212345678ADeposito lleno de 50 litros de Gasoil   70*
+INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:36)]2025-04-24 08:18:28.665 [main] AlquilerCoches - Fin de los tests

@@ -76,6 +76,17 @@ public class ServicioImpl implements Servicio {
 
             rs.close(); 
             st.close();
+            
+             // 2) Comprobar cliente
+            st = con.prepareStatement("SELECT 1 FROM clientes WHERE NIF = ?");
+            st.setString(1, nifCliente);
+            rs = st.executeQuery();
+            if (!rs.next()) {
+                throw new AlquilerCochesException(AlquilerCochesException.CLIENTE_NO_EXIST);
+            }
+            rs.close(); 
+            st.close();
+
 
 		} catch (SQLException e) {
 			// Completar por el alumno
