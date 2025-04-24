@@ -106,9 +106,8 @@ public class ServicioImpl implements Servicio {
                     : null;
             
          // 4) Compobar solape de reservas
-            st = con.prepareStatement(
-            		"SELECT COUNT(*) FROM reservas WHERE matricula=? AND fecha_ini<=? AND (fecha_fin IS NULL OR fecha_fin>=?)"
-            		); 
+            st = con.prepareStatement("SELECT COUNT(*) FROM reservas WHERE matricula=? AND fecha_ini<=? AND (fecha_fin IS NULL OR fecha_fin>=?)"); 
+            
             st.setString(1, matricula);
             st.setDate(2, sqlFechaFin);
             st.setDate(3, sqlFechaIni);
@@ -120,7 +119,19 @@ public class ServicioImpl implements Servicio {
             }
             rs.close();
             st.close();
+            
+         // 5) Insertar reservas en tabla reservas
+            
+            st = con.prepareStatement("INSERT INTO reservas(idReserva, cliente, matricula, fecha_ini, fecha_fin) " + "VALUES(seq_reservas.nextval,?,?,?,?,?)");
 
+            st.setString(1, nifCliente);
+            st.setString(2, matricula);
+            st.setDate(3, sqlFechaIni);
+            st.setDate(4, sqlFechaFin);
+            st.executeUpdate();
+            st.close();
+            
+     
 		} catch (SQLException e) {
 			// Completar por el alumno
 
