@@ -42,7 +42,7 @@ public class ServicioImpl implements Servicio {
 
 			/* A completar por el alumnado... */
 
-			/* ================================= AYUDA RÁPIDA ===========================*/
+			/* ================================= AYUDA Rï¿½PIDA ===========================*/
 			/*
 			 * Algunas de las columnas utilizan tipo numeric en SQL, lo que se traduce en
 			 * BigDecimal para Java.
@@ -62,6 +62,20 @@ public class ServicioImpl implements Servicio {
 			 * calcular sumando los dias de alquiler (ver variable DIAS_DE_ALQUILER) a la
 			 * fecha ini.
 			 */
+			
+			 // 1) Comprobar vehÃ­culo
+            st = con.prepareStatement("SELECT id_modelo FROM vehiculos WHERE matricula = ?");
+            st.setString(1, matricula);
+            rs = st.executeQuery();
+            Integer idModelo = null;
+            if (rs.next()) {
+                idModelo = rs.getInt(1);
+            } else {
+                throw new AlquilerCochesException(AlquilerCochesException.VEHICULO_NO_EXIST);
+            }
+
+            rs.close(); 
+            st.close();
 
 		} catch (SQLException e) {
 			// Completar por el alumno
