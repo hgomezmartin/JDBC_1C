@@ -104,7 +104,22 @@ public class ServicioImpl implements Servicio {
             java.sql.Date sqlFechaFin = (fechaFin != null)
                     ? new java.sql.Date(fechaFin.getTime())
                     : null;
-
+            
+         // 4) Compobar solape de reservas
+            st = con.prepareStatement(
+            		"SELECT COUNT(*) FROM reservas WHERE matricula=? AND fecha_ini<=? AND (fecha_fin IS NULL OR fecha_fin>=?)"
+            		); 
+            st.setString(1, matricula);
+            st.setDate(2, sqlFechaFin);
+            st.setDate(3, sqlFechaIni);
+            
+            rs = st.executeQuery();
+            rs.next();
+            if (rs.getInt(1)>0) {
+            	throw new AlquilerCochesException(AlquilerCochesException.VEHICULO_OCUPADO);
+            }
+            rs.close();
+            st.close();
 
 		} catch (SQLException e) {
 			// Completar por el alumno
