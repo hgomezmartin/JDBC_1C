@@ -136,11 +136,21 @@ public class ServicioImpl implements Servicio {
             
             st = con.prepareStatement("SELECT precio_cada_dia, capacidad_deposito, tipo_combustible FROM modelos WHERE id_modelo=?");
             st.setInt(1, idModelo);
-            rs = st.executeQuery(); rs.next();
+            rs = st.executeQuery(); 
+            rs.next();
             BigDecimal precioDia = rs.getBigDecimal(1);
             int capacidad = rs.getInt(2);
             String tipoComb = rs.getString(3);
-            rs.close(); st.close();
+            rs.close(); 
+            st.close();
+            
+          // 6.2) Datos precio combustible
+            st = con.prepareStatement("SELECT precio_por_litro FROM precio_combustible WHERE tipo_combustible=?");
+            st.setString(1,tipoComb);
+            rs = st.executeQuery(); rs.next();
+            BigDecimal precioLitro = rs.getBigDecimal(1);
+            rs.close(); 
+            st.close();
             
           
             
