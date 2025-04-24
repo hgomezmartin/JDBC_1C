@@ -1,5 +1,6 @@
 package lsi.ubu.servicios;
 
+import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -130,6 +131,19 @@ public class ServicioImpl implements Servicio {
             st.setDate(4, sqlFechaFin);
             st.executeUpdate();
             st.close();
+            
+          // 6) Datos de modelo
+            
+            st = con.prepareStatement("SELECT precio_cada_dia, capacidad_deposito, tipo_combustible FROM modelos WHERE id_modelo=?");
+            st.setInt(1, idModelo);
+            rs = st.executeQuery(); rs.next();
+            BigDecimal precioDia = rs.getBigDecimal(1);
+            int capacidad = rs.getInt(2);
+            String tipoComb = rs.getString(3);
+            rs.close(); st.close();
+            
+          
+            
             
      
 		} catch (SQLException e) {
