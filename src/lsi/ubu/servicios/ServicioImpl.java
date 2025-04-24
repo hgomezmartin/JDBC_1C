@@ -86,6 +86,13 @@ public class ServicioImpl implements Servicio {
             }
             rs.close(); 
             st.close();
+                        
+            
+         // 3) Formatear fechas SQL
+            java.sql.Date sqlFechaIni = new java.sql.Date(fechaIni.getTime());
+            java.sql.Date sqlFechaFin = (fechaFin != null)
+                    ? new java.sql.Date(fechaFin.getTime())
+                    : null;
 
 
 		} catch (SQLException e) {
