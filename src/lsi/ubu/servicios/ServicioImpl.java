@@ -86,7 +86,18 @@ public class ServicioImpl implements Servicio {
             }
             rs.close(); 
             st.close();
-                        
+            
+            	// 2.5) Si no se especifica fechaFin, usar nuevo modelo máximo
+            if (fechaFin == null) {
+                st = con.prepareStatement("SELECT MAX(id_modelo) FROM modelos");
+                rs = st.executeQuery();
+                if (rs.next()) {
+                    idModelo = rs.getInt(1);
+                }
+                rs.close(); st.close();
+            }
+
+            
             
          // 3) Formatear fechas SQL
             java.sql.Date sqlFechaIni = new java.sql.Date(fechaIni.getTime());
