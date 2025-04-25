@@ -106,48 +106,56 @@ public class ServicioImpl implements Servicio {
                     ? new java.sql.Date(fechaFin.getTime())
                     : null;
             
-         // 4) Compobar solape de reservas
-            st = con.prepareStatement("SELECT COUNT(*) FROM reservas WHERE matricula=? AND fecha_ini<=? AND (fecha_fin IS NULL OR fecha_fin>=?)"); 
-            
+         // 4) Comprobar solape se reservas
+            st = con.prepareStatement(
+                "SELECT COUNT(*) FROM reservas " +
+                "WHERE matricula = ? AND fecha_ini <= ? " +
+                "AND (fecha_fin IS NULL OR fecha_fin >= ?)"
+            );
             st.setString(1, matricula);
-            st.setDate(2, sqlFechaFin);
+            st.setDate(2, (sqlFechaFin != null) ? sqlFechaFin : sqlFechaIni);
             st.setDate(3, sqlFechaIni);
-            
-            rs = st.executeQuery();
+            rs = st.executeQuery(); 
             rs.next();
-            if (rs.getInt(1)>0) {
-            	throw new AlquilerCochesException(AlquilerCochesException.VEHICULO_OCUPADO);
+            if (rs.getInt(1) > 0) {
+                throw new AlquilerCochesException(AlquilerCochesException.VEHICULO_OCUPADO);
             }
-            rs.close();
+            rs.close(); 
             st.close();
-            
-         // 5) Insertar reservas en tabla reservas
-            
-            st = con.prepareStatement("INSERT INTO reservas(idReserva, cliente, matricula, fecha_ini, fecha_fin) " + "VALUES(seq_reservas.nextval,?,?,?,?,?)");
 
+            // 5) Insertar reservas en tabla reservas
+            st = con.prepareStatement(
+                "INSERT INTO reservas(idReserva, cliente, matricula, fecha_ini, fecha_fin) " +
+                "VALUES(seq_reservas.nextval, ?, ?, ?, ?)"
+            );
             st.setString(1, nifCliente);
             st.setString(2, matricula);
             st.setDate(3, sqlFechaIni);
             st.setDate(4, sqlFechaFin);
             st.executeUpdate();
             st.close();
-            
-          // 6) Datos de modelo
-            
-            st = con.prepareStatement("SELECT precio_cada_dia, capacidad_deposito, tipo_combustible FROM modelos WHERE id_modelo=?");
+
+            // 6) Obtener Datos del modelo seleccionado
+            st = con.prepareStatement(
+                "SELECT precio_cada_dia, capacidad_deposito, tipo_combustible " +
+                "FROM modelos WHERE id_modelo = ?"
+            );
             st.setInt(1, idModelo);
             rs = st.executeQuery(); 
             rs.next();
-            BigDecimal precioDia = rs.getBigDecimal(1);
-            int capacidad = rs.getInt(2);
-            String tipoComb = rs.getString(3);
+            BigDecimal precioDia       = rs.getBigDecimal(1);
+            int        capacidadDepo   = rs.getInt(2);
+            String     tipoCombustible = rs.getString(3);
             rs.close(); 
             st.close();
-            
-          // 6.2) Datos precio combustible
-            st = con.prepareStatement("SELECT precio_por_litro FROM precio_combustible WHERE tipo_combustible=?");
-            st.setString(1,tipoComb);
-            rs = st.executeQuery(); rs.next();
+
+            // 7) Datos precio por litro
+            st = con.prepareStatement(
+                "SELECT precio_por_litro FROM precio_combustible WHERE tipo_combustible = ?"
+            );
+            st.setString(1, tipoCombustible);
+            rs = st.executeQuery(); 
+            rs.next();
             BigDecimal precioLitro = rs.getBigDecimal(1);
             rs.close(); 
             st.close();
