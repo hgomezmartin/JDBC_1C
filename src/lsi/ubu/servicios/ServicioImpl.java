@@ -175,8 +175,16 @@ public class ServicioImpl implements Servicio {
             st.setString(2, nifCliente);
             st.executeUpdate();
             st.close();
-
             
+         // 10) Recuperar nº Factura 
+            st = con.prepareStatement("SELECT seq_num_fact.currval FROM dual");
+            rs = st.executeQuery(); rs.next();
+            int nroFactura = rs.getInt(1);
+            rs.close(); 
+            st.close();
+            
+        
+
             
             //Confirmar
             con.commit();

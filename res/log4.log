@@ -10494,3 +10494,387 @@ INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:352)]2025-04-25 09:52:40.22
 INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:353)]2025-04-25 09:52:40.224 [main] Tests - Se obtiene...**
 INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:354)]2025-04-25 09:52:40.224 [main] Tests - Y deberia ser*12222-ABC11-03-201313-03-201310212345678A2 dias de alquiler, vehiculo modelo 2   32#12222-ABC11-03-201313-03-201310212345678ADeposito lleno de 50 litros de Gasoil   70*
 INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:36)]2025-04-25 09:52:40.225 [main] AlquilerCoches - Fin de los tests
+INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:27)]2025-04-25 10:06:11.769 [main] AlquilerCoches - Comienzo de los tests
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.877 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.878 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Vie Abr 25 10:06:11 2025
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.879 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.880 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.881 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.945 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.947 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.952 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.953 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.967 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.968 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.970 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.985 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.986 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:11.986 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.000 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.001 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.002 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.009 [main] ExecuteScript - drop table precio_combustible cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.011 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.013 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.013 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.014 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.015 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.017 [main] ExecuteScript - drop table modelos cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.018 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.018 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.018 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.019 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.020 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.020 [main] ExecuteScript - drop table vehiculos cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.021 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.022 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.023 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.024 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.025 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.025 [main] ExecuteScript - drop table clientes cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.026 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.026 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.028 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.029 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.030 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.035 [main] ExecuteScript - drop table facturas cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.036 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.037 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.037 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.038 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.038 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.040 [main] ExecuteScript - drop table lineas_factura cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.041 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.041 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.042 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.042 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.042 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.042 [main] ExecuteScript - drop table reservas cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.042 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.043 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.043 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.043 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.044 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.044 [main] ExecuteScript - create table clientes(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.044 [main] ExecuteScript -              *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.044 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.045 [main] ExecuteScript - ORA-00955: name is already used by an existing object
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.045 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.045 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.045 [main] ExecuteScript - create table precio_combustible(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.045 [main] ExecuteScript -              *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.046 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.046 [main] ExecuteScript - ORA-00955: name is already used by an existing object
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.046 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.046 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.056 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.058 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.060 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.063 [main] ExecuteScript - create table modelos(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.064 [main] ExecuteScript -              *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.065 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.065 [main] ExecuteScript - ORA-00955: name is already used by an existing object
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.065 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.065 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.119 [main] ExecuteScript - create table vehiculos(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.120 [main] ExecuteScript - *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.121 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.122 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.123 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.125 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.135 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.135 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.136 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.142 [main] ExecuteScript - create table reservas(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.142 [main] ExecuteScript - *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.143 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.143 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.143 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.143 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.155 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.157 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.158 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.159 [main] ExecuteScript - create table facturas(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.160 [main] ExecuteScript - *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.160 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.160 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.160 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.160 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.164 [main] ExecuteScript - create table lineas_factura(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.164 [main] ExecuteScript - *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.165 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.165 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.165 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:12.165 [main] ExecuteScript - 
+INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:27)]2025-04-25 10:06:31.296 [main] AlquilerCoches - Comienzo de los tests
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.396 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.397 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Vie Abr 25 10:06:31 2025
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.398 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.398 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.398 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.465 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.466 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.466 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.469 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.485 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.486 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.486 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.502 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.504 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.505 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.518 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.519 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.521 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.528 [main] ExecuteScript - drop table precio_combustible cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.529 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.530 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.530 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.531 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.532 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.534 [main] ExecuteScript - drop table modelos cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.536 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.536 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.536 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.537 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.538 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.539 [main] ExecuteScript - drop table vehiculos cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.539 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.540 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.541 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.541 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.542 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.543 [main] ExecuteScript - drop table clientes cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.543 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.544 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.544 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.545 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.545 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.549 [main] ExecuteScript - drop table facturas cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.549 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.550 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.550 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.551 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.551 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.552 [main] ExecuteScript - drop table lineas_factura cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.552 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.553 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.554 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.556 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.557 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.558 [main] ExecuteScript - drop table reservas cascade constraints
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.558 [main] ExecuteScript -            *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.559 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.559 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.560 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.560 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.560 [main] ExecuteScript - create table clientes(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.561 [main] ExecuteScript -              *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.561 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.561 [main] ExecuteScript - ORA-00955: name is already used by an existing object
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.562 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.562 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.562 [main] ExecuteScript - create table precio_combustible(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.562 [main] ExecuteScript -              *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.562 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.563 [main] ExecuteScript - ORA-00955: name is already used by an existing object
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.563 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.564 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.577 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.578 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.579 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.580 [main] ExecuteScript - create table modelos(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.581 [main] ExecuteScript -              *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.581 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.581 [main] ExecuteScript - ORA-00955: name is already used by an existing object
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.581 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.582 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.583 [main] ExecuteScript - create table vehiculos(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.584 [main] ExecuteScript - *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.585 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.586 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.587 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.588 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.602 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.604 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.605 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.606 [main] ExecuteScript - create table reservas(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.606 [main] ExecuteScript - *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.606 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.607 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.607 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.608 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.623 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.623 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.624 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.626 [main] ExecuteScript - create table facturas(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.626 [main] ExecuteScript - *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.626 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.627 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.627 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.628 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.628 [main] ExecuteScript - create table lineas_factura(
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.628 [main] ExecuteScript - *
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.629 [main] ExecuteScript - ERROR at line 1:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.629 [main] ExecuteScript - ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.630 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:06:31.630 [main] ExecuteScript - 
+INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:27)]2025-04-25 10:07:29.447 [main] AlquilerCoches - Comienzo de los tests
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.543 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.544 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Vie Abr 25 10:07:29 2025
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.545 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.545 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.546 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.611 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.613 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.614 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.616 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.629 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.629 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.631 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.645 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.646 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.646 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.659 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.659 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.661 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.703 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.705 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.705 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.747 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.749 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.749 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.781 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.782 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.782 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.825 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.826 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.826 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.860 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.861 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.862 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.893 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.894 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.895 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.929 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.929 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.930 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.955 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.957 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.958 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.980 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.981 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.982 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.994 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.995 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:29.995 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.037 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.037 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.038 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.066 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.067 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.069 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.083 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.084 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.084 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.127 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.128 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.129 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.139 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.140 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.140 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.172 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.173 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.173 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.202 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.202 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.204 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.210 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.210 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.211 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.249 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.250 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.250 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.296 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.297 [main] ExecuteScript - PL/SQL procedure successfully completed.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.297 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:55)]2025-04-25 10:07:30.298 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-25 10:07:30.535 [main] AlquilerCochesException - El número de días será mayor que cero
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:30.538 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:30.538 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:30.539 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:37)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:30.539 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:42)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:30.540 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:46)]2025-04-25 10:07:30.541 [main] Tests - Nro de dias insuficiente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:32.383 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:32.391 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-25 10:07:32.709 [main] AlquilerCochesException - Vehículo inexistente
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:32.710 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:32.710 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:32.710 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:75)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:32.711 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:67)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:32.711 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+DEBUG: [lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:196)]2025-04-25 10:07:32.729 [main] ServicioImpl - Vehículo inexistente
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:71)]2025-04-25 10:07:32.732 [main] Tests - Alquilar vehiculo inexistente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:32.734 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:32.734 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-25 10:07:32.767 [main] AlquilerCochesException - Cliente inexistente
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:32.767 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:32.768 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:32.769 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:86)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:32.769 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:81)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:32.770 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+DEBUG: [lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:196)]2025-04-25 10:07:32.772 [main] ServicioImpl - Cliente inexistente
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:85)]2025-04-25 10:07:32.773 [main] Tests - Alquilar  a cliente inexistente OK
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:32.775 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:32.775 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:32.953 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:32.954 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:125)]2025-04-25 10:07:33.101 [main] Tests - Caso alquiler correcto pero NO especifico la fecha final --------------
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:132)]2025-04-25 10:07:33.102 [main] Tests - NO Coinciden la factura y las linea de factura  MAL
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:133)]2025-04-25 10:07:33.102 [main] Tests - Se obtiene...**
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:134)]2025-04-25 10:07:33.103 [main] Tests - Y deberia ser*1234-ABC11-03-201313412345678A4 dias de alquiler, vehiculo modelo 2   64#1234-ABC11-03-201313412345678ADeposito lleno de 50 litros de Gasoil   70*
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:33.106 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:33.107 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:33.168 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:33.169 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-25 10:07:33.177 [main] AlquilerCochesException - El vehículo no está disponible
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.178 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.178 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.178 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:121)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.178 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:185)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.204 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+DEBUG: [lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:196)]2025-04-25 10:07:33.207 [main] ServicioImpl - El vehículo no está disponible
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:190)]2025-04-25 10:07:33.207 [main] Tests - OK Caso vehiculo ocupado solape de fechaIni correcto
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:33.212 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:33.218 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:33.276 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:33.276 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-25 10:07:33.282 [main] AlquilerCochesException - El vehículo no está disponible
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.282 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.282 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.282 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:121)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.283 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:234)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.283 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+DEBUG: [lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:196)]2025-04-25 10:07:33.284 [main] ServicioImpl - El vehículo no está disponible
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:239)]2025-04-25 10:07:33.285 [main] Tests - OK Caso vehiculo ocupado solape de fechaFin correcto
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:33.291 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:33.291 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:33.384 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:33.384 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:55)]2025-04-25 10:07:33.391 [main] AlquilerCochesException - El vehículo no está disponible
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.392 [main] AlquilerCochesException - java.base/java.lang.Thread.getStackTrace(Thread.java:2450)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.392 [main] AlquilerCochesException - lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:58)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.392 [main] AlquilerCochesException - lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:121)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.392 [main] AlquilerCochesException - lsi.ubu.tests.Tests.ejecutarTests(Tests.java:284)
+DEBUG: [lsi.ubu.excepciones.AlquilerCochesException.<init>(AlquilerCochesException.java:59)]2025-04-25 10:07:33.392 [main] AlquilerCochesException - lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:34)
+DEBUG: [lsi.ubu.servicios.ServicioImpl.alquilar(ServicioImpl.java:196)]2025-04-25 10:07:33.394 [main] ServicioImpl - El vehículo no está disponible
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:290)]2025-04-25 10:07:33.394 [main] Tests - OK Caso vehiculo ocupado intervalo del alquiler esta dentro de una reserva correcto
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:33.398 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:33.399 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:103)]2025-04-25 10:07:33.437 [main] PoolDeConexiones - Activacion de Autocommit=false
+DEBUG: [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:111)]2025-04-25 10:07:33.437 [main] PoolDeConexiones - Activacion de Autocommit=false ::: Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:345)]2025-04-25 10:07:33.566 [main] Tests - Caso alquiler correcto pero SI especifico la fecha final --------------
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:352)]2025-04-25 10:07:33.567 [main] Tests - NO Coinciden la factura y las linea de factura MAL
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:353)]2025-04-25 10:07:33.568 [main] Tests - Se obtiene...**
+INFO : [lsi.ubu.tests.Tests.ejecutarTests(Tests.java:354)]2025-04-25 10:07:33.570 [main] Tests - Y deberia ser*12222-ABC11-03-201313-03-201310212345678A2 dias de alquiler, vehiculo modelo 2   32#12222-ABC11-03-201313-03-201310212345678ADeposito lleno de 50 litros de Gasoil   70*
+INFO : [lsi.ubu.AlquilerCoches.main(AlquilerCoches.java:36)]2025-04-25 10:07:33.570 [main] AlquilerCoches - Fin de los tests
