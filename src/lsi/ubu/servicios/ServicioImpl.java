@@ -163,16 +163,23 @@ public class ServicioImpl implements Servicio {
           
             
             
-     
+            //Confirmar
+            con.commit();
+            
+            
 		} catch (SQLException e) {
 			// Completar por el alumno
 
-			LOGGER.debug(e.getMessage());
+			if (con != null) try { con.rollback(); } catch (SQLException ex) { LOGGER.error(ex.getMessage()); }
+            LOGGER.debug(e.getMessage());
+            throw e;
 
-			throw e;
 
 		} finally {
 			/* A rellenar por el alumnado*/
+            if (rs != null) try { rs.close(); } catch (SQLException ignore) {}
+            if (st != null) try { st.close(); } catch (SQLException ignore) {}
+            if (con != null) try { con.close(); } catch (SQLException ignore) {}
 		}
 	}
 }
