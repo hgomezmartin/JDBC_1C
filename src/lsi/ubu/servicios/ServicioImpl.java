@@ -164,7 +164,17 @@ public class ServicioImpl implements Servicio {
             BigDecimal diasBD          = new BigDecimal(diasDiff);
             BigDecimal importeAlquiler = precioDia.multiply(diasBD);
             BigDecimal importeDeposito = precioLitro.multiply(new BigDecimal(capacidadDepo));
-            
+            BigDecimal importeTotal    = importeAlquiler.add(importeDeposito);
+
+         // 9) Insertar factura
+            st = con.prepareStatement(
+                "INSERT INTO facturas(nroFactura, importe, cliente) " +
+                "VALUES(seq_num_fact.nextval, ?, ?)"
+            );
+            st.setBigDecimal(1, importeTotal);
+            st.setString(2, nifCliente);
+            st.executeUpdate();
+            st.close();
 
             
             
