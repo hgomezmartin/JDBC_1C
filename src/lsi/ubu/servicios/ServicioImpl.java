@@ -160,7 +160,12 @@ public class ServicioImpl implements Servicio {
             rs.close(); 
             st.close();
             
-          
+         // 8) Cálculo de importes
+            BigDecimal diasBD          = new BigDecimal(diasDiff);
+            BigDecimal importeAlquiler = precioDia.multiply(diasBD);
+            BigDecimal importeDeposito = precioLitro.multiply(new BigDecimal(capacidadDepo));
+            
+
             
             
             //Confirmar
